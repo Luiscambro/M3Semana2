@@ -1,0 +1,43 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: Arial, sans-serif;
+     text-align: center;
+     padding: 30px;
+ }
+
+ .cajaexterna {
+     background-color: red;
+     width: 300px;
+     height: 300px;
+     margin: auto;
+
+     border: 2px solid black;
+ }
+
+ .cajainterna {
+     background-color: rgb(158, 219, 158);
+     width: 200px;
+     height: 200px;
+
+     border: 2px solid white;
+     margin: auto;
+     padding: 10px;
+ }
+
+ .contenido {
+     background-color: rgb(109, 96, 184);
+
+     border: 2px solid rgb(255, 0, 204);
+
+     margin: 0px;
+
+     padding: 0px;
+
+ }
+
+ h2 {
+     margin: 0;
+ }
