@@ -23,6 +23,8 @@
      height: 200px;
 
      border: 2px solid white;
+     border-left: 2px solid black;
+     border-bottom: 2px solid black;
      margin: auto;
      padding: 10px;
  }
@@ -40,4 +42,23 @@
 
  h2 {
      margin: 0;
+ }
+
+
+ .hidden {
+     overflow: hidden;
+ }
+
+.scroll {
+     overflow: scroll;
+ } 
+
+ .ellipsis {
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+ }
+
+ .h2 {
+    margin: 0;
  }
